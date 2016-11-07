@@ -20,7 +20,7 @@ def main():
 	editors_picks = []
 	article_bodys = []
 
-	for i in range(1, 1439):
+	for i in range(1111, 1439):
 		if i is 1:
 			r = requests.get(base_url + long_ideas, headers={'User-Agent': 'Mozilla/5.0'})
 			print r.status_code
