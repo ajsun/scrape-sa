@@ -13,7 +13,7 @@ date_test2 = "Apr. 20, 2015, 7:22 AM"
 
 
 def convert_time(time):
-    print time
+    # print time
     months = {
         'Jan.': 1,
         'Feb.': 2,
